@@ -28,3 +28,5 @@
 *.app
 
 src/bootloader/bios\.bin
+
+src/Andromeda\.img
