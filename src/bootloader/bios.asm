@@ -7,7 +7,7 @@ align 4
 label sector_per_track word at $$ 
 label head_count byte at $$ + 2 
 label disk_id byte at $$ + 3 
-boot_msg db "Andromeda boot loader. Version 0.01",13,10,0 
+boot_msg db "Andromeda Loader. Version 0.01",13,10,0 
 reboot_msg db "Press any key...",13,10,0 
 ; Вывод строки DS:SI на экран 
 write_str: 
