@@ -26,3 +26,5 @@
 *.exe
 *.out
 *.app
+
+src/bootloader/bios\.bin
